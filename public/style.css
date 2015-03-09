@@ -1,0 +1,44 @@
+.main_container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+}
+.form {
+  margin-bottom: 25px;
+  font-family: "Arial";
+}
+.tab_content {
+  background-color: #d8d9ff;
+  border: solid 1px #b9bdff;
+  padding: 25px;
+  width: 100%;
+}
+.title {
+  padding: 0 25px 0 25px;
+  background-color: #d5fbff;
+  width: 100%;
+  border: solid 1px #ffffff;
+}
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  text-align: right;
+  max-width: 450px;
+}
+ul li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ffdbdb;
+  border: solid 1px #ffb7b7;
+}
+ul a {
+  font-family: "Arial";
+  color: #ff8686;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}

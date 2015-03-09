@@ -1,0 +1,27 @@
+form action="/product" class="form"
+  | Enter a product ID:
+  br
+  input type="text" size="25" name="id"
+  input type="submit" value="Submit"
+
+div class="title"
+  h2 #{@product.name}
+div id="general_info" class="tab_content"
+  h2 General Info
+  span id="content_text"
+    | #{@product.general_info}
+div id="technical_specs" class="tab_content hidden"
+  h2 Technical Specs
+  span class="content_text"
+    | #{@product.technical_specs}
+div id="location" class="tab_content hidden"
+  h2 Location
+  span class="content_text"
+    | #{@product.location}
+ul class="nav"
+  a href="#general_info" class="nav_links" id="general_info_link"
+    li General info
+  a href="#technical_specs" class="nav_links" id="technical_specs_link"
+    li Technical specs
+  a href="#location" class="nav_links" id="location_link"
+    li Where to buy
