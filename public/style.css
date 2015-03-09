@@ -24,7 +24,7 @@
   padding: 0;
   margin:0;
   text-align: right;
-  max-width: 450px;
+  width: 502px;
 }
 ul li {
   display: inline-block;
@@ -38,7 +38,6 @@ ul a {
   color: #ff8686;
   text-decoration: none;
 }
-
 .hidden {
   display: none;
 }
